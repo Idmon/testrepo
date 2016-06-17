@@ -18,8 +18,7 @@ public class Apl {
 	 */
 	public static void main(String[] args) throws Exception {
 		Trie<Data> trie = new Trie<Data>();
-		int a = 1;
-		
+
 		// Read the txt file and insert all the words into the Trie
 		Scanner scanner = new Scanner(new File("words.txt"));
 		int number = 0;
